@@ -12,3 +12,7 @@ In this first part, the Knowledge Graph is created using information from Monarc
 
 ## Graph building (DrugCentral and TTD)
 
+The second part is to incorporate drug information from DrugCentral and TTD. As input, this notebook receives the two *csv* files generated in the previous step, a *csv* file containing information from DrugCentral (downloaded from *TODO: add link), a *txt* file containing information from TTD (downloaded from *TODO: Add link*) and a file matching TTD IDs to Monarch IDs (this file corresponds to *TODO: Add file*, and was obtained using SORTA *TODO: Add link*. As output this notebook produces two *csv* files, one containing all the nodes of the Knowledge Graph and one containing all the edges of the Knowledge Graph.
+
+## Predictions and Explanations
+
