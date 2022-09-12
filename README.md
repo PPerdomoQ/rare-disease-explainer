@@ -10,7 +10,7 @@ In total, three Jupyter Notebooks are used to obtain the predictions and the exp
 
 ## Graph building (Monarch)
 
-In this first part, the Knowledge Graph is created using information from Monarch. To extract information from Monarch, Bioknkwledge Reviewer is used. As input you will need a number of seeds of the targeted diseases. The seeds are the IDs used by Monarch to identify its elements. You can use the Monarch interface to search for the seeds *TODO: Add link*. In our example, we have used seeds of Duchenne Muscular Dystrophy (*TODO: Add seeds) and the gene affected innthe disease: *DMD* (*TODO: Add seed*). As output, two *.csv* files are obtained, one containing the nodes of the Knowledge Graph and one containing the edges of the Knowledge Graph. 
+In this first part, the Knowledge Graph is created using information from Monarch. To extract information from Monarch, Bioknowledge Reviewer is used. As input you will need a number of seeds of the targeted diseases. The seeds are the IDs used by Monarch to identify its elements. You can use the Monarch interface to search for the seeds *TODO: Add link*. In our example, we have used seeds of Duchenne Muscular Dystrophy (*TODO: Add seeds) and the gene affected innthe disease: *DMD* (*TODO: Add seed*). As output, two *.csv* files are obtained, one containing the nodes of the Knowledge Graph and one containing the edges of the Knowledge Graph. 
 
 ## Graph building (DrugCentral and TTD)
 
