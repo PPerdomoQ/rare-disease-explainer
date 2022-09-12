@@ -6,7 +6,7 @@ The objective of this project is that, given a number of seeds related to a targ
 
 ![](Pipeline.png)
 
-In total, three Jupyter Notebooks are used to obtain the predictions and the explanations. The first one, [DMD_KG.ipynb](DMD_KG/DMD_KG.ipynb), is used to create a Knowledge Graph containing information of the disease. In this first notebook, only information from [Monarch](https://monarchinitiative.org/), is used. To incorporate drug information (Drug-Target and Drug Disease) the second notebook, *TODO: Add file*. This notebook incorporates information from DrugCentral and Therapeutic Terget Database. The final notebook, *TODO: Add file*, is the one that provides the predictions and the explanations. Each notebook contains information about its use, but in the next sections there is a small summary showing its details.
+In total, three Jupyter Notebooks are used to obtain the predictions and the explanations. The first one, [DMD_KG.ipynb](DMD_KG/DMD_KG.ipynb), is used to create a Knowledge Graph containing information of the disease. In this first notebook, only information from [Monarch](https://monarchinitiative.org/), is used. To incorporate drug information (Drug-Target and Drug-Disease) the second notebook, [Drug_Disease.ipynb](Drug_Disease.ipynb), is used. This notebook incorporates information from [DrugCentral](https://drugcentral.org/) and [Therapeutic Terget Database](http://db.idrblab.net/ttd/). The final notebook, *TODO: Add file*, is the one that provides the predictions and the explanations. Each notebook contains information about its use, but in the next sections there is a small summary showing its details.
 
 ## Graph building (Monarch)
 
