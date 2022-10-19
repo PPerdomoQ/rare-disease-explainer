@@ -14,6 +14,20 @@ The description of the files and folders used in this project is the following:
 
 * [requirements.txt](requirements.txt): list of requirements necessary to load the work environment used in the project
 * [DMD_KG](DMD_KG): Folder containing the files to necessary to create the Knowledge Graphs 
+* [monarch.py](DMD_KG/monarch.py): Python file containing the necessary modules to run Bioknowledge Reviewer
+* [Notebook_1.ipynb](DMD_KG/Notebook_1.ipynb): Jupyter Notebook that is used to build the Knowledge Graph
+* [Notebook_2.ipynb](Notebook_2.ipynb): Jupyter Notebook used to include drug information to the Knowledge Graph
+* [Notebook_3.ipynb](Notebook_3.ipynb): Jupyter Notebook used to obtain the predictions and the explanations
+* [edge2vec3.py](edge2vec3.py) & [transition3.py](transition3.py): Python files containing the modules to run Edge2Vec
+* [graph_nodes_v2022-01-11.csv](graph_nodes_v2022-01-11.csv): CSV file containing the nodes of the Knowledge Graph created using two seeds: Duchenne Muscular Dystrophy (MONDO:0010679) and *DMD* (HGNC:2928)
+* [graph_edges_v2022-01-11.csv](graph_edges_v2022-01-11.csv): CSV file containing the edges of the Knowledge Graph created using two seeds: Duchenne Muscular Dystrophy (MONDO:0010679) and *DMD* (HGNC:2928)
+* [drug.target.interaction.tsv](drug.target.interaction.tsv): TSV file downloaded from DrugCentral, contains Drug-Target information
+* [drug_to_disease.txt](drug_to_disease.txt): TXT file downloaded from TTD, contains Drug-Disease information
+* [matched.csv](matched.csv): CSV file containing the TTD diseases matched to the Human Phenotype Ontology (HPO), this was done using SORTA.
+* [drug_nodes.csv](drug_nodes.csv): CSV file containing the drug nodes of the Knowledge Graph
+* [drug.target.final (1).csv](drug.target.final (1).csv): CSV file containing Drug-Target edges of the Knowledge Graph
+* [drug_to_disease_final (1).csv](drug_to_disease_final (1).csv): CSV file containing Drug-Disease edges of the Knowledge Graph
+
 
 ## Graph building (Monarch)
 
