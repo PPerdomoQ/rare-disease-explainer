@@ -25,8 +25,8 @@ The description of the files and folders used in this project is the following:
 * [drug_to_disease.txt](drug_to_disease.txt): TXT file downloaded from TTD, contains Drug-Disease information
 * [matched.csv](matched.csv): CSV file containing the TTD diseases matched to the Human Phenotype Ontology (HPO), this was done using SORTA.
 * [drug_nodes.csv](drug_nodes.csv): CSV file containing the drug nodes of the Knowledge Graph
-* [drug.target.final (1).csv](drug.target.final (1).csv): CSV file containing Drug-Target edges of the Knowledge Graph
-* [drug_to_disease_final (1).csv](drug_to_disease_final (1).csv): CSV file containing Drug-Disease edges of the Knowledge Graph
+* [drug.target.final (1).csv](drug.target.final%20(1).csv): CSV file containing Drug-Target edges of the Knowledge Graph
+* [drug_to_disease_final (1).csv](drug_to_disease_final%20(1).csv): CSV file containing Drug-Disease edges of the Knowledge Graph
 
 
 ## Graph building (Monarch)
