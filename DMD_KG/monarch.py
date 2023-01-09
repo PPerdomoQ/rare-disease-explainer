@@ -763,7 +763,7 @@ def build_nodes(edges_df):
             conceptPrefix2semantic_dct[prefix] = 'DISO'
         elif 'gene' in prefix or 'hgnc' in prefix:
             conceptPrefix2semantic_dct[prefix] = 'GENE'
-        elif 'mgi' in prefix or 'flybase' in prefix or 'wormbase' in prefix or 'zfin' in prefix or 'xenbase' in prefix or 'rdb' in prefix or 'sgd' in prefix or 'ensembl' in prefix: 
+        elif 'mgi' in prefix or 'flybase' in prefix or 'wormbase' in prefix or 'zfin' in prefix or 'xenbase' in prefix or 'rgd' in prefix or 'sgd' in prefix or 'ensembl' in prefix: 
             conceptPrefix2semantic_dct[prefix] = 'ORTH'
         elif 'react' in prefix or 'kegg-path' in prefix or 'go' in prefix:
             conceptPrefix2semantic_dct[prefix] = 'PHYS'
