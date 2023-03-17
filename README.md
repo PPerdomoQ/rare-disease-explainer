@@ -31,7 +31,7 @@ The description of the files and folders used in this project is the following:
 
 ## Graph building (Monarch)
 
-In this first part, the Knowledge Graph is created using information from Monarch, this is done in [Notebook_1.ipynb](DMD_KG/Notebook_1.ipynb). To extract information from Monarch, Bioknowledge Reviewer is used. As input you will need a number of seeds of the targeted diseases. The seeds are the IDs used by Monarch to identify its elements. You can use the [Monarch](https://monarchinitiative.org/) interface to search for the seeds. In our example, we have used seeds of Duchenne Muscular Dystrophy (MONDO:0010679) and the gene affected innthe disease: *DMD* (HGNC:2928). As output, two *.csv* files are obtained, one containing the nodes of the Knowledge Graph and one containing the edges of the Knowledge Graph. 
+In this first part, the Knowledge Graph is created using information from Monarch, this is done in [Notebook_1.ipynb](DMD_KG/Notebook_1.ipynb). To extract information from Monarch, [Bioknowledge Reviewer](https://github.com/NuriaQueralt/bioknowledge-reviewer) is used. As input you will need a number of seeds of the targeted diseases. The seeds are the IDs used by Monarch to identify its elements. You can use the [Monarch](https://monarchinitiative.org/) interface to search for the seeds. In our example, we have used seeds of Duchenne Muscular Dystrophy (MONDO:0010679) and the gene affected innthe disease: *DMD* (HGNC:2928). As output, two *.csv* files are obtained, one containing the nodes of the Knowledge Graph and one containing the edges of the Knowledge Graph. 
 
 ## Graph building (DrugCentral and TTD)
 
