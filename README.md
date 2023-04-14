@@ -14,19 +14,19 @@ The description of the files and folders used in this project is the following:
 
 * [requirements.txt](requirements.txt): list of requirements necessary to load the work environment used in the project
 * [DMD_KG](DMD_KG): Folder containing the files to necessary to create the Knowledge Graphs 
-* [monarch.py](DMD_KG/monarch.py): Python file containing the necessary modules to run Bioknowledge Reviewer
+* [monarch.py](Libraries/monarch.py): Python file containing the necessary modules to run Bioknowledge Reviewer
 * [1_Graph_building.ipynb](Notebooks/1_Graph_building.ipynb): Jupyter Notebook that is used to build the Knowledge Graph
 * [2_Add_drug_info.ipynb](Notebooks/2_Add_drug_info.ipynb): Jupyter Notebook used to include drug information to the Knowledge Graph
 * [3_Predictions_and_explanations.ipynb](Notebooks/3_Predictions_and_explanations.ipynb): Jupyter Notebook used to obtain the predictions and the explanations
-* [edge2vec3.py](edge2vec3.py) & [transition3.py](transition3.py): Python files containing the modules to run Edge2Vec
-* [graph_nodes_v2022-01-11.csv](graph_nodes_v2022-01-11.csv): CSV file containing the nodes of the Knowledge Graph created using two seeds: Duchenne Muscular Dystrophy (MONDO:0010679) and *DMD* (HGNC:2928)
-* [graph_edges_v2022-01-11.csv](graph_edges_v2022-01-11.csv): CSV file containing the edges of the Knowledge Graph created using two seeds: Duchenne Muscular Dystrophy (MONDO:0010679) and *DMD* (HGNC:2928)
-* [drug.target.interaction.tsv](drug.target.interaction.tsv): TSV file downloaded from DrugCentral, contains Drug-Target information
-* [drug_to_disease.txt](drug_to_disease.txt): TXT file downloaded from TTD, contains Drug-Disease information
-* [matched.csv](matched.csv): CSV file containing the TTD diseases matched to the Human Phenotype Ontology (HPO), this was done using SORTA.
-* [drug_nodes.csv](drug_nodes.csv): CSV file containing the drug nodes of the Knowledge Graph
-* [drug_target_edges.csv](drug_target_edges.csv): CSV file containing Drug-Target edges of the Knowledge Graph
-* [drug_disease_edges.csv](drug_disease_edges.csv): CSV file containing Drug-Disease edges of the Knowledge Graph
+* [edge2vec3.py](Libraries/edge2vec3.py) & [transition3.py](Libraries/transition3.py): Python files containing the modules to run Edge2Vec
+* [graph_nodes_v2022-01-11.csv](Data/graph_nodes_v2022-01-11.csv): CSV file containing the nodes of the Knowledge Graph created using two seeds: Duchenne Muscular Dystrophy (MONDO:0010679) and *DMD* (HGNC:2928)
+* [graph_edges_v2022-01-11.csv](Data/graph_edges_v2022-01-11.csv): CSV file containing the edges of the Knowledge Graph created using two seeds: Duchenne Muscular Dystrophy (MONDO:0010679) and *DMD* (HGNC:2928)
+* [drug.target.interaction.tsv](Data/drug.target.interaction.tsv): TSV file downloaded from DrugCentral, contains Drug-Target information
+* [drug_to_disease.txt](Data/drug_to_disease.txt): TXT file downloaded from TTD, contains Drug-Disease information
+* [matched.csv](Data/matched.csv): CSV file containing the TTD diseases matched to the Human Phenotype Ontology (HPO), this was done using SORTA.
+* [drug_nodes.csv](Data/drug_nodes.csv): CSV file containing the drug nodes of the Knowledge Graph
+* [drug_target_edges.csv](Data/drug_target_edges.csv): CSV file containing Drug-Target edges of the Knowledge Graph
+* [drug_disease_edges.csv](Data/drug_disease_edges.csv): CSV file containing Drug-Disease edges of the Knowledge Graph
 
 
 ## Graph building (Monarch)
