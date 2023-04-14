@@ -1,10 +1,10 @@
 # Duchenne Muscular Dystrophy Drug Reourposing using Knowledge Graphs and eXplainable AI
 
-In this repository you will find the code necessary to run the pipeline shown in: [ThesisFinal.pdf](Other Files/ThesisFinal.pdf). This pipeline is part of a Master Thesis project and it is expected to be improved throughout time. 
+In this repository you will find the code necessary to run the pipeline shown in: [ThesisFinal.pdf](Other%20Files/ThesisFinal.pdf). This pipeline is part of a Master Thesis project and it is expected to be improved throughout time. 
 
 The objective of this project is that, given a number of seeds related to a target (rare) disease, several drug candidates and **explanations** will be obtained for the symptoms of the targeted disease.
 
-![](Other Files/Pipeline.png)
+![](Other%20Files/Pipeline.png)
 
 The environment used to run this project can be created using  [requirements.txt](requirements.txt) the In total, three Jupyter Notebooks are used to obtain the predictions and the explanations. The first one, [Notebook_1.ipynb](DMD_KG/Notebook_1.ipynb), is used to create a Knowledge Graph containing information of the disease. In this first notebook, only information from [Monarch](https://monarchinitiative.org/), is used. To incorporate drug information (Drug-Target and Drug-Disease) the second notebook, [Notebook_2.ipynb](Notebook_2.ipynb), is used. This notebook incorporates information from [DrugCentral](https://drugcentral.org/) and [Therapeutic Terget Database](http://db.idrblab.net/ttd/). The final notebook, [Notebook_3.ipynb](Notebook_3.ipynb), is the one that provides the predictions and the explanations. Each notebook contains information about its use, but in the next sections there is a small summary showing its details.
 
