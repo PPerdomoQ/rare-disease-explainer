@@ -44,3 +44,7 @@ The second part is to incorporate drug information from DrugCentral and TTD, thi
 ## Predictions and Explanations
 
 In this final part predictions and explanations are obtained, this is done using [3_Predictions_and_explanations.ipynb](Notebooks/3_Predictions_and_explanations.ipynb). To obtain predictions a Graph Neural Network (GNN) model was build. This model was created using *Pytorch Geometric* and *DeepSnap*. To obtain the explanations a modified version of GNNExplainer is used. This modified version is allows for explanations on a link prediction task. As input, this notebook receives the two *csv* files obtained in the previous step, and as output in provides a list of drug candidates for each symptom of the disease and a list of explanations supporting these predictions. 
+
+## License
+
+This project is licensed under the terms of the GPL v3.0 license.
