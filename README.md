@@ -8,6 +8,10 @@ The objective of this project is that, given a number of seeds related to a targ
 
 The environment used to run this project can be created using  [requirements.txt](requirements.txt) the In total, three Jupyter Notebooks are used to obtain the predictions and the explanations. The first one, [1_Graph_building.ipynb](Notebooks/1_Graph_building.ipynb), is used to create a Knowledge Graph containing information of the disease. In this first notebook, only information from [Monarch](https://monarchinitiative.org/), is used. To incorporate drug information (Drug-Target and Drug-Disease) the second notebook, [2_Add_drug_info.ipynb](Notebooks/2_Add_drug_info.ipynb), is used. This notebook incorporates information from [DrugCentral](https://drugcentral.org/) and [Therapeutic Terget Database](http://db.idrblab.net/ttd/). The final notebook, [3_Predictions_and_explanations.ipynb](Notebooks/3_Predictions_and_explanations.ipynb), is the one that provides the predictions and the explanations. Each notebook contains information about its use, but in the next sections there is a small summary showing its details.
 
+## Prerequisites
+
+This work has been tested in Windows 11 and Ubuntu 20 using Python 3.10.10. The list of libraries necessary to run the modules can be found in the [requirements.txt](requirements.txt) file. It is recommended to install [pytorch](https://pytorch.org/get-started/locally/) and [pytorch-geometric](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html) following the instructions of their respective websites. The hyperparameter optimization was developed using [ray-tune](https://docs.ray.io/en/latest/tune/index.html) and was tested only in the Ubuntu system.
+
 ## List of files
 
 The description of the files and folders used in this project is the following: 
